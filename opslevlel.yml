@@ -1,0 +1,10 @@
+version: 1
+service:
+  name: Sample 400
+  lifecycle: beta
+  tier: tier_4
+  product: Procurement
+  owner: inventory_team
+  language: Ruby
+  framework: Rails
+  description: Manages Samples for our inventory service with yaml.

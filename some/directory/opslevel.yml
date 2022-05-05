@@ -1,0 +1,23 @@
+---
+version: 1
+service:
+  name: sample4000
+  lifecycle: 
+  tier: 
+  product: 
+  owner: testing_7
+  language: 
+  framework: 
+  description: 
+  aliases: 
+  tags:
+  - key: test
+    value: repo-file-check
+  repositories:
+  - name: OL-Testing/sample4000
+    path: "/some/directory"
+    provider: github
+    display_name: OL-Testing/sample4000
+  tools: 
+  dependencies: 
+  - alias: adwd
